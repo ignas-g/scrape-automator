@@ -23,6 +23,10 @@ describe('test_enter', function() {
   })
   it('test_enter', async function() {
     await openAndWait(driver, 60629, 100000);
-    await openAndWait(driver, 60628, 10000);
+    const postcodes = [60628, 60627];
+    for(let key in postcodes) {
+      const v = postcodes[key];
+      await openAndWait(driver, v, 10000)
+    }
   })
 })
