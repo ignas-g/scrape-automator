@@ -8,7 +8,7 @@ const openAndWait = async function(driver, zip, time) {
 	return new Promise(function(succ) {
 		setTimeout(succ, time);
 	});
-}
+};
 
 describe('test_enter', function() {
   this.timeout(30000000)
@@ -22,6 +22,7 @@ describe('test_enter', function() {
     await driver.quit();
   })
   it('test_enter', async function() {
+    //Wait for install of extension
     await openAndWait(driver, 60629, 100000);
     const postcodes = [60628, 60627];
     for(let key in postcodes) {
@@ -29,4 +30,4 @@ describe('test_enter', function() {
       await openAndWait(driver, v, 10000)
     }
   })
-})
+});
