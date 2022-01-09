@@ -1,5 +1,5 @@
-set PATH_TO_EXT=c:\code\alphaCheap-main\dist
-
+set PATH_TO_EXT=c:\code\dist
+npm install
 :lrun
 
 mocha
