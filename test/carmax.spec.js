@@ -1,6 +1,6 @@
 const {loadData, openAndWait, setUpDriver} = require('../utils');
 
-describe('zillow', async function() {
+describe('carmax', async function() {
   this.timeout(30000000);
   let driver;
   let vars;
@@ -10,12 +10,13 @@ describe('zillow', async function() {
   afterEach(async function() {
     await driver.quit();
   });
-  const url = 'https://www.zillow.com/willow-ak/';
-  const products = loadData('postcodes.txt');
+  const url = 'https://www.carmax.com/cars?search=';
+  const products = loadData('cars.txt');
   for(let key in products) {
     const v = products[key];
-    it('postcode ' + v, function (done) {
+    it('cars ' + v, function (done) {
       openAndWait(driver, url, v, 20000).then(done, done);
     });
   }
 });
+

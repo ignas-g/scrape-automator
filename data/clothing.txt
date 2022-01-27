@@ -1,0 +1,49 @@
+CLOTHING, ATHLETIC, CASUAL, DRESS, UNIFORM, WEATHER RELATED, WORK
+Athletic Clothing
+Children's Clothing
+Coats, Jackets, Parkas, Vests  (Cold Weather)
+Disposable Clothing  (See Class 475 for Hospital Type)
+Dresses, Skirts, Blouses
+Folkloric Clothing
+Formal Clothing  (Tuxedos, Formal Gowns, etc.)
+Hazardous Environment Clothing
+Hospital Wear, Patient
+Hospital Wear, Professional
+Infant Apparel (Including Booties and Shoes)
+Insulated Clothing
+Pants, Slacks, Trousers, Shorts, Jeans, etc.
+Prisoner Clothing
+Recycled Clothing
+Shirts, Dress and Casual
+Silk Screened Shirts, Jackets, Hats, etc.
+Suits, Dress and Casual
+Sweaters
+Swimwear
+Uniforms, Blended Fabric
+Uniforms, Cotton
+Uniforms, Synthetic Fabric
+Uniforms, Wool and Woolen Blends
+Work Clothes
+CLOTHING ACCESSORIES (SEE CLASS 800 FOR SHOES AND BOOTS)
+Aprons, Bibs, Smocks - Non-disposable (See 200-32,34 for Hospital type)
+Bags, Clothing
+Bandanas, Hankerchiefs, Ties, etc.
+Bands: Arm, Hat, Head, Sweat, etc.
+Belts and Suspenders
+Brushes, Clothes
+Caps, All Types  (Except Disposable and Hospital Types)
+Emblems, Braids, and Patches  (For Caps and Uniforms)
+Gloves, Cloth Type  (All Types)
+Gloves, Cowhide/Leather  (All Types)
+Gloves, Neoprene and Rubber  (All Types)
+Gloves: Latex, Plastic, PVC, Poly, Synthetic, Vinyl, etc. (All Types)
+Hats, Felt
+Hats, Straw
+Hoods, Mittens, Mufflers, Scarves, etc. (For Cold Weather)
+Hosiery and Socks
+Rainwear (Raincoats, Slicker Suits, Storm Suits, Umbrellas, etc.)
+Recycled Clothing Accessories
+Robes, Caps, and Gowns  (Choir and Graduation Types)
+Shower Accessories: Caps, Shoes, Wraps, etc.
+Undergarments and Sleepwear, Female
+Undergarments and Sleepwear, Male

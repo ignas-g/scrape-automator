@@ -11,10 +11,10 @@ describe('kroger', async function() {
     await driver.quit();
   });
   const url = 'https://www.kroger.com/search?query=';
-  const groceries = loadData('groceries.txt');
-  for(let key in groceries) {
-    const v = groceries[key];
-    it('groceries ' + v, function (done) {
+  const products = loadData('groceries.txt');
+  for(let key in products) {
+    const v = products[key];
+    it('products ' + v, function (done) {
       openAndWait(driver, url, v, 20000).then(done, done);
     });
   }
