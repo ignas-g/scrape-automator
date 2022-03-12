@@ -19,7 +19,7 @@ exports.openAndWait = async function(driver, url, parameter, time) {
 exports.setUpDriver = async function(driver, vars) {
   let options = new chrome.Options();
   const unpackedExtensionPath = process.env.PATH_TO_EXT || 'd:/prj/1729/alphaCheap/dist/';
-  options.addArguments(["--load-extension=" + unpackedExtensionPath]);
+  options.addArguments(["--load-extension=" + '/Users/ignasgalvelis/Documents/code/alphaCheap/dist']);
 
   driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build()
   vars = {}
