@@ -15,6 +15,17 @@ exports.openAndWait = async function(driver, url, parameter, time) {
   });
 };
 
+exports.openReplaceAndWait = async function(driver, url, parameter, time) {
+  // TODO: Use a template for where the parameter goes (if not at the end)
+  const replaced = url.replace('${product}', encodeURIComponent(parameter));
+  console.log('replaced url', replaced);
+  await driver.get(replaced);
+  return new Promise(function(succ) {
+    console.log('waiting for', time);
+    setTimeout(succ, time);
+  });
+};
+
 
 exports.setUpDriver = async function(driver, vars) {
   let options = new chrome.Options();
@@ -24,6 +35,11 @@ exports.setUpDriver = async function(driver, vars) {
   driver = await new Builder().forBrowser('chrome').setChromeOptions(options).build()
   vars = {}
   return driver;
+};
+
+exports.datasetExists = function(fn) {
+  const file = './data/' + fn;
+  return fs.existsSync(file);
 };
 
 
